@@ -1,0 +1,32 @@
+You can hide your logo with this "display: none"
+
+And use "
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+"
+to align your menu in the center
+
+------------------------------------ 
+.site-branding {
+    color: var(--branding--color-text);
+    margin-right: 140px;
+    display: none;
+}
+
+
+.primary-navigation {
+    position: absolute;
+    top: var(--global--admin-bar--height);
+    /* right: 0; */
+    color: var(--primary-nav--color-text);
+    font-size: var(--primary-nav--font-size);
+    line-height: 1.15;
+    /* margin-top: 0; */
+    /* margin-bottom: 0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
