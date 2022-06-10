@@ -1,0 +1,28 @@
+// remove border-radius on the input
+
+<input type="search" id="wp-block-search__input-1" class="wp-block-search__input " name="s" value="" placeholder="" style="/* border-radius: 50px; */" required="">
+
+// remove border-radius and add background orange on the button
+<button type="submit" class="wp-block-search__button has-text-color has-foreground-color has-background has-secondary-background-color " style="/* border-radius: 50px; */">Search</button>
+
+.has-secondary-background-color {
+    background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+}
+
+// change the color of the background
+.has-foreground-background-color {
+    background-color: #6FABAC !important;
+}
+
+// add logo inside <div class="wp-container-3 wp-block-group" />
+<img src="WordPressLogo.png" alt="WordPress-logo">
+
+// style logo
+.wp-container-3 img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+
